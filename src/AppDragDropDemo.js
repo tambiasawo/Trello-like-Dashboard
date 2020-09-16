@@ -8,7 +8,8 @@ export default class AppDragDropDemo extends Component {
       { name: "React", category: "complete", bgcolor: "pink" },
       { name: "Vue", category: "complete", bgcolor: "skyblue" },
       { name: "Learn Bootstrap", category: "todo", bgcolor: "yellow" },
-      { name: "Learn Ruby", category: "todo", bgcolor: "yellow" }
+      { name: "Learn Ruby", category: "todo", bgcolor: "yellow" },
+      { name: "Don't Stop Learning", category: "todo", bgcolor: "yellow" }
     ]
   };
   onDragStart = (ev, id, col) => {
