@@ -60,6 +60,7 @@ h3::selection {
   text-align: center;
   padding: 5% 8%;
   background-color: blue;
+  overflow: hidden;
 }
 .todo::selection {
   background-color: pink;
